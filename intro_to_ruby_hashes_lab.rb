@@ -26,11 +26,11 @@ def monopoly_with_third_tier
         :two_pieces_owned => 50, 
         :three_pieces_owned => 100, 
         :four_pieces_owned => 200},
-    :name => 
+    :names => 
         {:reading_railroad => {:mortgage_value => $100}, 
-        :pennsylvania_railroad => {:mortgage},
-        :b_and_o_railroad => {},
-        :shortline_railroad => {}}
+        :pennsylvania_railroad => {:mortgage_value => $200},
+        :b_and_o_railroad => {:mortgage_value => $},
+        :shortline_railroad => {:mortgage_value => $}}
     }
   }
 	monopoly
